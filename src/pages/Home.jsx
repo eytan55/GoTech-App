@@ -45,8 +45,6 @@ const Home = props => {
   };
 
   const handleChange = event => {
-    console.log('event: ', event)
-    console.log('checked: ', event.target.checked)
     let inputs = [...inputFields];
     const name = event.target.name;
     const selectedValue = event.target.value;
