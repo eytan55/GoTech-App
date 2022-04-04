@@ -1,0 +1,38 @@
+.container {
+    border: 1px solid #DADEE1;
+    border-radius: 10px;
+    background-color: white;
+    padding-left: 25px;
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+    padding-right: 15px;
+}
+
+.otherRadio {
+    display: flex;
+    flex-direction: row;  
+}
+
+.otherInput {
+    margin-left: -10px;
+    width: 100%;
+}
+
+.radioInput {
+    min-width: 90px;
+    margin-bottom: 15px;
+}
+
+.radioInputLabel {
+    margin-left: 10px;
+ }
+
+.otherInput input[type="text"] {
+    border:none;
+    border-bottom:1px solid  #DADEE1; 
+    width: 100%;
+ }
+
+ .star {
+     color: red
+ }

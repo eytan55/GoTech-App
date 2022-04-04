@@ -1,0 +1,11 @@
+.container {
+    border: 1px solid #DADEE1;
+    border-radius: 10px;
+    background-color: white;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

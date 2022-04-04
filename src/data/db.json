@@ -2,10 +2,10 @@
     "questionnaires": [{
         "id": 1,
         "questions": [
-            {"type": "title", "title": "GoTech Questionnaire", "description": "Show me what you got!"},
-            {"type": "dropdown", "title": "What language is your favorite?", "values": ["JavaScript", "TypeScript", "CoffeeScript"], "isOther": false, "isRequired": true},
-            {"type": "input", "title": "What do you like about programing?", "description": "Show me what you got!"},
-            {"type": "dropdown", "title": "How was your assignment?", "values": ["Easy", "Normal", "Hard"], "isOther": true, "isRequired": true}
+            {"id": 1, "type": "title", "title": "GoTech Questionnaire", "description": "Show me what you got!", "isRequired": false},
+            {"id": 2, "type": "dropdown", "title": "What language is your favorite?", "values": [{"id": 1, "value":"JavaScript"}, {"id": 2, "value":"TypeScript"}, {"id": 3, "value":"CoffeeScript"}], "isRequired": true, "name": "language"},
+            {"id": 3, "type": "input", "title": "What do you like about programing?", "name": "likeProgramingInput", "placeHolder": "Your Answer", "isRequired": false},
+            {"id": 4,  "type": "dropdown", "title": "How was your assignment?", "values": [{"id": 1, "value":"Easy"}, {"id": 2, "value":"Normal"}, {"id": 3, "value":"Hard"}, {"id": 4, "value":"Other", "isOther": true}], "isRequired": true, "name": "level", "otherName": "levelInput"}
         ]
     }]
 }
